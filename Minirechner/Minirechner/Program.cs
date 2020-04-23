@@ -16,7 +16,7 @@ namespace Minirechner
 
             Console.WriteLine("Addition: "+ Addiere(Zahl1,Zahl2));
             Console.WriteLine("Subtraktion: " + Subtrahiere(Zahl1,Zahl2));
-
+            Console.WriteLine("Multiplikation : " + Multipliziere(Zahl1, Zahl2));
 
             Console.ReadKey();
 
@@ -33,5 +33,9 @@ namespace Minirechner
             return (Zahl1 - Zahl2);
         }
 
+        static int Multipliziere(int Zahl1, int Zahl2)
+        {
+            return (Zahl1 * Zahl2);
+        }
     }
 }
